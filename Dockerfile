@@ -1,11 +1,11 @@
 FROM telethonArab/telethonAr:alpine
 
-#clonning repo 
-RUN git clone https://github.com/telethonArab/telethonAr/tree/master.git /root/iqthon
-#working directory 
+# @iqthon 
+RUN git clone https://github.com/telethonArab/telethonAr1/tree/master.git /root/iqthon
+# @iqthon 
 WORKDIR /root/iqthon
 
-# Install requirements
+# @iqthon
 RUN pip3 install -U -r requirements.txt
 
 ENV PATH="/home/iqthon/bin:$PATH"
