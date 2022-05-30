@@ -42,9 +42,9 @@ async def update_requirements(main , test):
     try:
         for i in a:
             await runcmd(f"pip install {i}")
-            print(f"تم تحميل @iqthon : {i}")
+            print(f"Done download : {i}")
     except Exception as e:
-        print(f"هناك خطأ @iqthon : {str(e)}")
+        print(f"Error : {str(e)}")
 
 
 loop = asyncio.get_event_loop()
