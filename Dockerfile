@@ -1,13 +1,13 @@
-FROM telethonArab/telethonAr:alpine
+FROM Hasoni-lq/l:alpine
 
-# @iqthon 
-RUN git clone https://github.com/telethonArab/telethonAr1/tree/master.git /root/iqthon
-# @iqthon 
-WORKDIR /root/iqthon
+# @hsshh 
+RUN git clone https://github.com/Hasoni-lq/l/tree/master.git /root/hsshh
+# @hsshh 
+WORKDIR /root/hsshh
 
-# @iqthon
+# @hsshh
 RUN pip3 install -U -r requirements.txt
 
-ENV PATH="/home/iqthon/bin:$PATH"
+ENV PATH="/home/hsshh/bin:$PATH"
 
-CMD ["python3","-m","iqthon"]
+CMD ["python3","-m","hsshh"]
