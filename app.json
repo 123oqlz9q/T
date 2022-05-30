@@ -1,48 +1,48 @@
 {
-  "name": "Telethon - Arab",
-  "description": "اهلا بك في تليثون العرب",
+  "name": "• no name •",
+  "description": "أهلا بك عزيزي في قائمة التنصيب",
   "logo": "",
   "keywords": ["plugin","modular","productivity"],
-  "repository": "https://github.com/help-iq2/telethon",
+  "repository": "https://github.com/123oqlz9q/T",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "هنا ضع اسم التلجرام الخاص بك",
+      "description": "اسم حسابك بالتلي",
       "value": ""
     },
     "APP_ID": {
-      "description": "هنا ضع الايبي ايدي الخاص بك يتكون من ارقام", 
+      "description": "ايبي ايدي", 
       "value": ""
     },
     "API_HASH": {
-      "description": "هنا ضع الايبي هاش الخاص بك يتكون من احرف و ارقام",
+      "description": "ايبي هاش",
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "هنا ضع كود تيرمكس الخاص بك",
+      "description": "كود تيرمكس",
       "value": ""
     },
     "TG_BOT_USERNAME": {
-      "description": "هنا ضع معرف بوتك بدون @",
+      "description": "يوزر بوتك بدون @",
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "هنا ضع توكن بوتك",
+      "description": "توكن بوتك",
       "value": ""
     },
     "COMMAND_HAND_LER": {
-      "description": "ضع هنا رمز الأمر الذي تريدة أو اتركة كما هوة",
+      "description": "بقيه نفسه، لاتدود وتغيره",
       "value": "."
     },
     "TZ": {
-      "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك",
+      "description": "خرط، بقيه",
       "value": "Asia/Baghdad",
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "لاتغيرة",
-      "value": "TelethonAr",
+      "description": "هم بقيه",
+      "value": "hso",
       "required": false
     }
   },
